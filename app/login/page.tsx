@@ -30,7 +30,7 @@ export default function LoginPage() {
   return (
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'radial-gradient(circle at top left, #152145 0%, #0b1020 45%, #060914 100%)' }}>
       <div style={{ padding: '48px', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: '22px', maxWidth: '420px', width: '90%', backdropFilter: 'blur(12px)' }}>
-        <img src="/nomiverse-white.png" alt="Nomiverse" style={{ height: '36px', marginBottom: '20px' }} />
+        <img src="/nomiverse-white.png" alt="Nomiverse" style={{ height: '48px', marginBottom: '24px', display: 'block' }} />
         <h1 style={{ margin: '0 0 8px 0', color: '#f3f6ff', fontSize: '28px', letterSpacing: '-0.03em' }}>Budujeme RV Infrastructure Platform pro CEE</h1>
         <p style={{ margin: '0 0 32px 0', color: '#a8b2d1', fontSize: '15px' }}>Enter password to view the investor deck.</p>
         <form onSubmit={handleSubmit}>
