@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   outputFileTracingIncludes: {
-    '/api/deck': ['./deck.html'],
+    '/deck': ['./deck.html'],
   },
 }
 
