@@ -262,7 +262,12 @@
       .core-center .title { font-size: 16px; }
       .core-center .small { font-size: 10px; }
       .orbit { font-size: 10px; padding: 6px 8px; }
-    }
+    
+      body { overflow-x: hidden; }
+      .slide::before, .slide::after { display: none; }
+      .panel { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+      table th, table td { min-width: 0 !important; }
+  }
     /* ── Responsive layout: mobil → PC (přebíjí inline grid styly) ── */
     @media (max-width: 1080px) {
       /* všechny gridy (i s inline grid-template-columns) na 1 sloupec */
