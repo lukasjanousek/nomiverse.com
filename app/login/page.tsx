@@ -37,7 +37,7 @@ export default function LoginPage() {
           <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} autoFocus style={{ width: '100%', padding: '14px 16px', marginBottom: '16px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.12)', background: 'rgba(255,255,255,0.04)', color: '#f3f6ff', fontSize: '16px', outline: 'none', boxSizing: 'border-box' }} />
           {error && <p style={{ color: '#fca5a5', fontSize: '14px', margin: '0 0 12px 0' }}>{error}</p>}
           <button type="submit" disabled={loading} style={{ width: '100%', padding: '14px', background: 'linear-gradient(135deg, #7dd3fc, #a78bfa)', color: '#0b1020', border: 'none', borderRadius: '12px', fontWeight: 700, fontSize: '15px', cursor: loading ? 'wait' : 'pointer', opacity: loading ? 0.7 : 1 }}>
-            {loading ? 'Verifying...' : 'Zobrazit Deck'}
+            {loading ? 'Verifying...' : 'Access Deck'}
           </button>
         </form>
       </div>
