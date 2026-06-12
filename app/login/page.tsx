@@ -31,7 +31,7 @@ export default function LoginPage() {
     <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'radial-gradient(circle at top left, #152145 0%, #0b1020 45%, #060914 100%)' }}>
       <div style={{ padding: '48px', background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: '22px', maxWidth: '420px', width: '90%', backdropFilter: 'blur(12px)' }}>
         <img src="/nomiverse-white.png" alt="Nomiverse" style={{ width: '220px', marginBottom: '28px', display: 'block' }} />
-        <h1 style={{ margin: '0 0 8px 0', color: '#f3f6ff', fontSize: '28px', letterSpacing: '-0.03em' }}>Building RV Infrastructure Platform for CEE</h1>
+        <h1 style={{ margin: '0 0 8px 0', color: '#f3f6ff', fontSize: '28px', letterSpacing: '-0.03em' }}>Building RV Infrastructure Platform for Czechia (CEE)</h1>
         <p style={{ margin: '0 0 32px 0', color: '#a8b2d1', fontSize: '15px' }}>Enter password to view the investor deck.</p>
         <form onSubmit={handleSubmit}>
           <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} autoFocus style={{ width: '100%', padding: '14px 16px', marginBottom: '16px', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.12)', background: 'rgba(255,255,255,0.04)', color: '#f3f6ff', fontSize: '16px', outline: 'none', boxSizing: 'border-box' }} />
